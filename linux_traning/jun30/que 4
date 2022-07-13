@@ -1,0 +1,7 @@
+4.What is Critical section, deadlocks, race around condition are problems that happen in thread synchronization?
+ Ans-critical section-When more than one processes access the same code segment that segment is known as the critical section. The critical section contains shared variables or resources which are needed to be synchronized to maintain the consistency of data variables. In simple terms, a critical section is a group of instructions/statements or region of code that need to be executed atomically (read this post for atomicity), such as accessing a resource (file, input or output port, global data, etc.).
+ 
+ deadlocks-A deadlock occurs when a thread enters a waiting state because a requested resource is held by another waiting thread, which in turn is waiting for another resource held by another waiting thread. If a thread is unable to change its state indefinitely because the resources requested by it are being used by another waiting thread, then the system is said to be in a deadlock.
+ 
+Race condition- A race condition is an undesirable situation that occurs when a device or system attempts to perform two or more operations at the same time, but because of the nature of the device or system, the operations must be done in the proper sequence to be done correctly.
+ 

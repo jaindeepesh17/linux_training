@@ -1,0 +1,18 @@
+7.What is difference between binary semaphore and mutex?
+ Ans-Binary semaphore-
+            1.Its functions based up on signalling mechanism.
+            2.The thread which is having higher priority than current thread can also release binary semaphore and take lock.
+            3.Semaphore value is changed according to wait () and signal () operations.
+            4.Multiple number of threads can acquire binary semaphore at a time concurrently.
+            5.Binary semaphore have no ownership.
+            6.They are faster than mutex because any other thread/process can unlock binary semaphore.
+            7.If you have number of instances for resource it is better to use Binary semaphore.
+   Mutex-
+            1.Its functions based up on locking mechanism.
+            2.The thread which has acquired mutex can only release Mutex when it exits from critical section.
+            3.Mutex value can be changed as locked and unlocked.
+            4.Only one thread can acquire mutex at a time.
+            5.There is ownership associated with mutex because only owner can release the lock.
+            6.They are slower than binary semaphores because only thread which has acquired must release the lock.
+            7.If you have single instance for resource it is better to use mutex.
+ 

@@ -1,0 +1,7 @@
+What is the difference between a Task, Process and thread?
+ans-Process: process is the set of instruction as code which operates on related data and process has its own various state, sleeping, running, stopped etc. when program gets loaded into memory it becomes process. Each process has atleast one thread when CPU is allocated called sigled threaded program.
+
+Thread: thread is a portion of the process. more than one thread can exist as part of process. Thread has its own program area and memory area. Multiple threads inside one process can not access each other data. Process has to handle sycnhronization of threads to achieve the desirable behaviour.
+
+Task: Task is not widely concept used worldwide. when program instruction is loaded into memory people do call as process or task. Task and Process are synonyms nowadays.
+

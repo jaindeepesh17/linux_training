@@ -1,0 +1,4 @@
+3.Do you have any idea about thread safe? How can you implement it?
+Ans-Yes,Thread safety is the avoidance of data races—situations in which data are set to either correct or incorrect values, depending upon the order in which multiple threads access and modify the data.
+ Using an atomic variable is another way to achieve thread-safety. When variables are shared by multiple threads, the atomic variable ensures that threads don't crash into each other.
+ 

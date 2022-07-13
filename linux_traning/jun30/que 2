@@ -1,0 +1,3 @@
+2.How threads communicate with each other?
+Ans-All the threads in the same program share the same memory space. If an object is accessible to various threads then these threads share access to that object's data member and thus communicate each other. The second way for threads to communicate is by using thread control methods.
+
